@@ -21,6 +21,8 @@ img {
     border-radius: 20px;
 }
 
+
+
 .container_image .weather_image {
     border-radius: 5px;
 }
@@ -43,11 +45,23 @@ img {
 }
 
 .container_image {
-    max-width: auto;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.grid_container {
+.image_container{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.project_preview{
+    object-fit: cover;
+}
+
+.flex_container {
     display: flex;
 }
 
@@ -57,6 +71,10 @@ img {
 
 .contacts h4 {
     font-size: 28px;
+}
+
+.weather_text_container {
+    margin: auto auto 0 auto;
 }
 
 .projectButton {
@@ -193,8 +211,7 @@ footer {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 48px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .email a {
@@ -244,12 +261,12 @@ p {
 @media (min-width: 768px) {
 .container_image {
     flex: 0 0 auto;
-    width: 48%;
+    width: 50%;
 }
 }
 
 @media (max-width: 767px) {
-    .grid_container {
+    .flex_container {
         flex-direction: column;
     }
     h1 {

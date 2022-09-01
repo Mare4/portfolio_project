@@ -4,11 +4,6 @@
 }
 
 
-
-body {
-    text-align: center;
-}
-
 h1 {
     font-family: var(--lato-font);
     font-weight: normal;
@@ -239,6 +234,7 @@ footer {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .email a {

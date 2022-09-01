@@ -125,8 +125,7 @@ footer {
 }
 
 .email {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 50px;
     font-family: var(--lato-font);
     font-weight: bold;
