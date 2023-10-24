@@ -1,247 +1,243 @@
 :root {
-    --popins-font: 'Poppins', sans-serif;
+  --popins-font: "Poppins", sans-serif;
 }
 
+body {
+  /* background-image: linear-gradient(145deg, #fff, rgb(43, 80, 80)); */
+}
 
 .pages {
-    padding: 0;
-    margin-top: 10px;
-    word-spacing: 20px;
+  padding: 0;
+  margin-top: 10px;
+  word-spacing: 20px;
 }
 
 p {
-    color: gray;
-    font-family: var(--lato-font);
-    font-size: 20px;
-    font-weight: 400;
+  color: gray;
+  font-family: var(--lato-font);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(109, 113, 116);
+  text-decoration: none;
+  color: rgb(109, 113, 116);
+}
+
+.about-me-text {
+  max-width: 1000px;
+  padding: 0 50px 0;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-    background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 a:hover {
-    color: rgb(140, 140, 238);
-    font-weight: bold;
+  color: rgb(140, 140, 238);
+  font-weight: bold;
 }
 
 nav li.active a {
-    color: rgb(140, 140, 238); 
-    font-weight: bold; 
+  color: rgb(140, 140, 238);
+  font-weight: bold;
 }
 
 .photoMe img {
-    border-radius: 20px;
-    max-width: 100%;
-    height: auto;
+  border-radius: 20px;
+  max-width: 586px;
+  height: 586px;
 }
 
 .aboutMeSection p {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .aboutMeSection {
-    padding: 160px 0 50px;
-    text-align: center;
-    display: flex;
+  padding: 160px 0 50px;
+  text-align: center;
+  display: flex;
 }
 
 .aboutMeText h1 {
-    font-weight: bold;
-    font-size: 76px;
-    margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 76px;
+  margin-bottom: 20px;
 }
 
 .aboutMeText h4 {
-    font-weight: bold;
-    font-size: 24px;
-    font-family: var(--popins-font);
-    margin-bottom: 30px
+  font-weight: bold;
+  font-size: 24px;
+  font-family: var(--popins-font);
+  margin-bottom: 30px;
 }
 
 .button_of_project {
-    border: 1px solid blue;
-    padding: 18px 27px;
-    font-family: var(--popins-font);
-    text-decoration: none;
-    border-radius: 4px;
-    color: blue;
+  border: 1px solid blue;
+  padding: 18px 27px;
+  font-family: var(--popins-font);
+  text-decoration: none;
+  border-radius: 4px;
+  color: blue;
 }
 
 .button_of_project:hover {
-    color: black;
-    border: 1px solid black;
+  color: black;
+  border: 1px solid black;
 }
 
 nav img {
-    max-width: 45px;
-    border-radius: 50%;
+  max-width: 45px;
+  border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
 .button_of_project {
-    border: 1px solid blue;
-    padding: 18px 27px;
-    font-family: var(--popins-font);
-    text-decoration: none;
-    border-radius: 4px;
-    color: blue;
+  border: 1px solid blue;
+  padding: 18px 27px;
+  font-family: var(--popins-font);
+  text-decoration: none;
+  border-radius: 4px;
+  color: blue;
 }
 
 .button_of_project:hover {
-    color: black;
-    border: 1px solid black;
+  color: black;
+  border: 1px solid black;
 }
 
-
 footer {
-    margin: 60px 0;
+  margin: 60px 0;
 }
 
 .contact-text h4 {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: var(--popins-font);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--popins-font);
 }
 
 .contact-text p {
-    color: gray;
-    font-family: var(--lato-font);
-    font-size: 20px;
-    font-weight: 500;
+  color: gray;
+  font-family: var(--lato-font);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .contact-text {
-    padding: 50px 160px;
+  padding: 50px 160px;
 }
 
-.contact-text p, h4 {
-    margin: 0;
+.contact-text p,
+h4 {
+  margin: 0;
 }
 
 .body-footer-block {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1320px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1320px;
 }
 
-
 .contact-block {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(236, 243, 245, 0.966);
-    border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(236, 243, 245, 0.966);
+  border-radius: 20px;
 }
 
 .padding-button {
-    padding: 75px 160px;
+  padding: 75px 160px;
 }
 
 .email {
-    margin-top: 50px;
-    font-family: var(--lato-font);
-    font-weight: bold;
-    font-size: 32px;
-    margin-bottom: 48px;
-    text-align: center;
+  margin-top: 50px;
+  font-family: var(--lato-font);
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .email a {
-    color: black;
+  color: black;
 }
 
 .email a:hover {
-    color: rgb(140, 140, 238);
+  color: rgb(140, 140, 238);
 }
 
 .media {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .media a {
-    color: rgb(140, 140, 238);
-    margin: 0 20px;
-    padding: 10px 17px;
-    font-size: 28px;
-    background-color: rgba(236, 243, 245, 0.966);
-    border-radius: 50%;
-    transition: all 100ms ease-in-out;
+  color: rgb(140, 140, 238);
+  margin: 0 20px;
+  padding: 10px 17px;
+  font-size: 28px;
+  background-color: rgba(236, 243, 245, 0.966);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
 
 .media a:hover {
-    color: white;
-    background-color: rgb(140, 140, 238);
+  color: white;
+  background-color: rgb(140, 140, 238);
 }
 
-
 .open-code {
-    color: black;
-    text-align: center;
-    padding-bottom: 50px;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 p a {
-    color: rgb(140, 140, 238);
+  color: rgb(140, 140, 238);
 }
 
-
 @media (max-width: 800px) {
-    nav {
-        justify-content: space-evenly;
-    }
-    .content {
-        padding: 0px 40px;
-    }
-    h1 {
-        font-size: 48px;
-    }
-    .hello {
-        font-size: 24px;
-    }
-    .aboutMeSection {
-        display: block;
-        padding-top: 50px;
-
-    }
-    .photoMe img {
-        margin-top: 50px;
-        width: 90%;
-    }
-    .aboutMeText {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .email {
-        font-size: 24px;
-    }
+  nav {
+    justify-content: space-evenly;
+  }
+  .content {
+    padding: 0px 40px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .hello {
+    font-size: 24px;
+  }
+  .aboutMeSection {
+    display: block;
+    padding-top: 50px;
+  }
+  .photoMe img {
+    margin-top: 50px;
+    width: 90%;
+  }
+  .aboutMeText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .email {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 1063px) {
-    .contact-block {
-        display: none;
-    }
+  .contact-block {
+    display: none;
+  }
 }
